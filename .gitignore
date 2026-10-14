@@ -1,0 +1,57 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# SQL Server / Base de datos local
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.sql.bak
+
+# Archivos sensibles (¡IMPORTANTE!)
+*.env
+appsettings.local.json
+appsettings.Development.json
+secrets.json
+*.pfx
+*.publishsettings
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
